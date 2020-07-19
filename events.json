@@ -108,8 +108,8 @@
 		"character": "assets/npcs/prosecutor.png",
 		"intro": "I wonder what information I can find out from the drug dealer…",
 		"outro": "Let’s look around the bakery to see what we can find…",
-		"evidence": "NULL",
-		"evidence_text": ["NULL"],
+		"evidence": "assets/objects/none",
+		"evidence_text": ["gg brother"],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
@@ -262,8 +262,8 @@
 		"character": "assets/npcs/karen.png",
 		"intro": "Hope they can help me out.",
 		"outro": "That was interesting.",
-		"evidence": "NULL",
-		"evidence_text": ["NULL"],
+		"evidence": "assets/objects/none.png",
+		"evidence_text": ["gg brother"],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
