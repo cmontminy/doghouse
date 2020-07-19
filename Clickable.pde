@@ -11,11 +11,11 @@ class Clickable {
   
   Clickable(String fileName, int x, int y) {
     String fileNameHigh = fileName.substring(0, fileName.indexOf('.')) + "-high.png";
-    
+  
     objectHighlight = loadImage(fileNameHigh);
     objectBase = loadImage(fileName);
     objectDisplayed = objectBase;
-    
+  
     this.size = objectDisplayed.width;
     this.x = x;
     this.y = y;
