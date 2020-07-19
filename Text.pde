@@ -7,7 +7,7 @@ class Text {
     scroll_text = text;  
   }
    
-  void draw() {
+  void display() {
     fill(255,255,255);
     font = createFont("Arial", 48);
     textFont(font, 48);
