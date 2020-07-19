@@ -2,8 +2,8 @@
 	{
 		"sceneName": "fratHouse",
 		"background": "assets/backgrounds/frat_house.png",
-		"character": "assets/npcs/gordon.png",
-		"intro": "There’s Gordon. Let’s see what he has to say about the baked goods.",
+		"character": "assets/npcs/hunter.png",
+		"intro": "There’s hunter. Let’s see what he has to say about the baked goods.",
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "assets/evidence/treats.png",
 		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
@@ -14,10 +14,10 @@
 		"dialogue": [
 			{
 				"speaker": "you",
-				"prompt": ["Hey! Are you Gordon?"]
+				"prompt": ["Hey! Are you Hunter?"]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt": ["Who’s asking?"]
 			},
 			{
@@ -25,20 +25,20 @@
 				"prompt": ["My name is {PLAYER_NAME}. I’m Brutus Furdinand’s lawyer."]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt" : "Look man. I don’t have anything to say to you. You’re guy was the one who’s making the treats.",
 				"answers" : ["I wanna know who you bought your chocolate baked goods from.", 
 							 "Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
 				"responses": [
 					[
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops.", 
 										  "Or maybe… me and my boys will have to teach you a lesson!"]
 						},
 						{
 							"speaker": "you",
-							"responses": ["That won’t be necessary Gordon. Unless you want to explain to the police what happened in the Hamptons last summer?"]
+							"responses": ["That won’t be necessary Hunter. Unless you want to explain to the police what happened in the Hamptons last summer?"]
 						}
 					],
 					{
@@ -48,23 +48,23 @@
 				]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt": ["How do you know about that?"]
 			},
 			{
 				"speaker": "you",
-				"prompt": ["I know a lot about you Gordon. And if you don’t give me the information I need, the police will know all that I know."]
+				"prompt": ["I know a lot about you Hunter. And if you don’t give me the information I need, the police will know all that I know."]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt" : "OK! I’ll tell you everything I know! But to be honest, it isn’t much.",
-				"answers" : ["Who did you get the goods from, Gordon?", 
+				"answers" : ["Who did you get the goods from, Hunter?", 
 							 "What was on the menu?", 
 							 "What was the quality like?"], 
 				"responses": [
 					[
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["It was a dog named Slimy Steve. He used to go to UNB but dropped out when the drug business got too good."]
 						},
 						{
@@ -72,7 +72,7 @@
 							"responses": ["Where does Slimy Steve hang around?"]
 						},
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["I don’t know man… The dog is like a ghost. Last I heard he moved apartments."]
 						},
 						{
@@ -80,16 +80,16 @@
 							"responses": ["And where would that be?"]
 						},
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["He lives near Bone Plaza in the Chateau Apartments. Real ritzy place. I guess treat dealing really paid off."]
 						}
 					],
 					{
-						"speaker": "gordon",
+						"speaker": "hunter",
 						"responses": ["It was mainly brownies, but there were also scones and cookies for sale."]
 					},
 					{
-						"speaker": "gordon",
+						"speaker": "hunter",
 						"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine.", 
 									  "I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
 					}
@@ -97,8 +97,7 @@
 			},
 			{
 				"speaker": "you",
-				"prompt": ["Thanks for your time Gordon. I hope you’ll clean up your act soon.", 
-						   "I guess it’s time to talk to this treat dealer..."]
+				"prompt": ["Thanks for your time Hunter. I hope you’ll clean up your act soon."]
 			}
 		]
 	},
