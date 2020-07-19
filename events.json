@@ -6,7 +6,9 @@
 		"intro": "There’s Gordon. Let’s see what he has to say about the baked goods.",
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "assets/evidence/chocolate.png",
-		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", "The packaging says Toe Beans Bakery on it.", "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
+		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
+							"The packaging says Toe Beans Bakery on it.", 
+							"They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
@@ -25,12 +27,14 @@
 			{
 				"speaker": "gordon",
 				"prompt" : "Look man. I don’t have anything to say to you. You’re guy was the one who’s making the treats.",
-				"answers" : ["I wanna know who you bought your chocolate baked goods from.", "Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
+				"answers" : ["I wanna know who you bought your chocolate baked goods from.", 
+							"Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
 				"responses": [
 					[
 						{
 							"speaker": "gordon",
-							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops.", "Or maybe… me and my boys will have to teach you a lesson!"]
+							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops.", 
+										"Or maybe… me and my boys will have to teach you a lesson!"]
 						},
 						{
 							"speaker": "you",
@@ -84,13 +88,15 @@
 					},
 					{
 						"speaker": "gordon",
-						"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine.", "I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
+						"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine.", 
+										"I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
 					}
 				]
 			},
 			{
 				"speaker": "you",
-				"prompt": ["Thanks for your time Gordon. I hope you’ll clean up your act soon.", "I guess it’s time to talk to this treat dealer..."]
+				"prompt": ["Thanks for your time Gordon. I hope you’ll clean up your act soon.", 
+						   "I guess it’s time to talk to this treat dealer..."]
 			}
 		]
 	},
@@ -99,9 +105,11 @@
 		"background": "assets/backgrounds/living_room.png",
 		"character": "assets/npcs/gordon.png",
 		"intro": "I wonder what information I can find out from the drug dealer…",
-		"outro": "I guess it’s time to talk to this treat dealer...",
+		"outro": "Let’s look around the bakery to see what we can find…",
 		"evidence": "assets/evidence/chocolate.png",
-		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", "The packaging says Toe Beans Bakery on it.", "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
+		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
+						  "The packaging says Toe Beans Bakery on it.", 
+						  "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
@@ -111,7 +119,7 @@
 			},
 			{
 				"speaker": "you",
-				"prompt": ["No. I’m not. The name’s {PLAYER_NAME}. I’m a lawyer for the Brutus Furdinand case. "]
+				"prompt": ["No. I’m not. The name’s {PLAYER_NAME}. I’m a lawyer for the Brutus Furdinand case."]
 			},
 			{
 				"speaker": "steve",
@@ -122,26 +130,60 @@
 				"prompt": ["Look Slimy Steve. If you don’t bark, I’ll make sure the cops know about all your shady underground dealings regarding all the chocolate doggy treats you’ve been fencing off."]
 			},
 			{
-				"speaker": "nameOne",
-				"prompt" : "Example prompt for interaction",
-				"answers" : ["Answer #1", "Answer #2"], 
+				"speaker": "you",
+				"prompt" : "Iell me everything you know about Toe Beans Bakery",
+				"answers" : ["Who’s making all their product?", "How are they distributing?"], 
 				"responses": [
 					[
 						{
-							"speaker": "nameOne",
-							"responses": ["Responses #1", "Responses #2"]
+							"speaker": "steve",
+							"responses": ["I don’t know that. All the interactions were anonymous, and whenever I would pick up the order, there was always a different person working.", 
+										  "I thought it might be the entire staff, but the operation seemed very small.", 
+										  "The product is good enough, but if that many people were on board, the quality should be much better."]
 						},
 						{
-							"speaker": "nameTwo",
-							"responses": "Responses #3"
+							"speaker": "you",
+							"responses": ["So you think it’s a one man operation?"]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["I’ve seen my fair share of chocolate treat makers in my time as a treat dealer, and in my experience, whoever is making the Toe Beans treats, 1 isn’t very good at baking, and 2 is doing it by themselves.", 
+										  "Whenever I order from them, the treats don’t look the best, and the packaging looks sloppy and rushed. Whoever is handling that operation is DEFINITELY doing it solo."]
 						}
 					],
-					{
-						"speaker": "nameOne",
-						"responses": ["Responses #1"]
-					}
+					[
+						{
+							"speaker": "steve",
+							"responses": ["Toe Beans has an online ordering app. All you have to do is place the order online and pick it up later.", 
+										  "We dealers would have to order using a secret code of pastries."]
+						},
+						{
+							"speaker": "you",
+							"responses": ["Secret code? How would you do that?"]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["We would always have to order 5 strawberry cupcakes, 2 cinnamon twists, 1 glazed donut, and 7 apple fritters."]
+						},
+						{
+							"speaker": "you",
+							"responses": ["5 strawberry cupcakes, 2 cinnamon twists, 1 glazed donut, and 7 apple fritters…"]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["Yup. And it has to be in that order."]
+						}
+					]
 				]
-			}
+			},
+			{
+				"speaker": "you",
+				"prompt": ["Anything else?"]
+			},
+			{
+				"speaker": "steve",
+				"prompt": ["We were told to order from 4 - 6 PM.", "WHAT?! This is bad!", "Look man I gotta go! Duty calls!"]
+			},
 		]
 	},
 	{
@@ -149,40 +191,110 @@
 		"background": "assets/backgrounds/bakery.png",
 		"character": "doghouse/assets/npcs/solomon.png",
 		"intro": "There’s Solomon the bakery owner. Let’s see what he has to say about the situation.",
-		"outro": "I guess it’s time to talk to this treat dealer...",
+		"outro": "Hmmm ... there seems to be someone else here.",
 		"evidence": "assets/evidence/chocolate.png",
-		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", "The packaging says Toe Beans Bakery on it.", "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
+		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
+						  "The packaging says Toe Beans Bakery on it.", 
+						  "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
 			{
-				"speaker": "nameOne",
-				"prompt": ["First text", "Second text"]
+				"speaker": "you",
+				"prompt": ["Hello. I’m {PLAYER_NAME}, Brutus’ lawyer for the retrial. Are you the owner of Toe Beans Bakery?"]
 			},
 			{
-				"speaker": "nameTwo",
-				"prompt": ["Only text"]
+				"speaker": "solomon",
+				"prompt": ["Oh, hello. Yes, I’m Solomon."]
 			},
 			{
-				"speaker": "nameOne",
-				"prompt" : "Example prompt for interaction",
-				"answers" : ["Answer #1", "Answer #2"], 
+				"speaker": "you",
+				"prompt": ["Great I just wanted to ask you a few questions about your business and how it operates."]
+			},
+			{
+				"speaker": "solomon",
+				"prompt": ["Well, I am an open book. Ask away!"],
+				"answers": ["What exactly do you do day to day at the store?",
+							"How do you usually operate?",
+							"What kind of dog was Brutus?"],
 				"responses": [
-					[
-						{
-							"speaker": "nameOne",
-							"responses": ["Responses #1", "Responses #2"]
-						},
-						{
-							"speaker": "nameTwo",
-							"responses": "Responses #3"
-						}
-					],
 					{
-						"speaker": "nameOne",
-						"responses": ["Responses #1"]
-					}
+						"speaker": "solomon",
+						"prompt": ["Oh, I usually just open and close the doors. I laze around in the office at the back, but other than that I let the staff run the shop.",
+							"There’s a little cafe down the street with a barking cute barista, so I like to take long lunches there."
+						]
+					},
+					{
+						"speaker": "solomon",
+						"prompt": ["Well, we work Monday thru Saturday with God’s Day off from 9 AM - 7 PM.",
+							"WE’RE USUALLY PACKED FROM 4 - 6 PM.",
+							"For in-store orders, we take product from the display case; once it starts to look a little empty, Karen will go to the back to restock the display case.",
+							"We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s KAREN",
+							"To-go orders come in from the machine at the front. They’re then grabbed by Karen who takes them to the back to be packaged."
+						]
+					},
+					{
+						"speaker": "solomon",
+						"prompt": ["Oh I’m just absolutely shocked about the whole affair! I would never judge a dog by his coat, so to see Brutus be put in the dog house for illegal treat activity was so disappointing!",
+							"I thought he was different from all those other scoundrel Pitbulls. I suppose it’s in his nature to be that way…"
+						]
+					}					
 				]
+			},
+			{
+				"speaker": "you",
+				"prompt": ["Thanks for your time. Do you mind if I have a look around?"]
+			},
+			{
+				"speaker": "solomon",
+				"prompt": ["Not at all. Take your time."]
+			}
+		]
+	},
+	{
+		"sceneName": "bakery",
+		"background": "assets/backgrounds/bakery.png",
+		"character": "doghouse/assets/npcs/karen.png",
+		"intro": "Hope they can help me out.",
+		"outro": "That was interesting.",
+		"evidence": "assets/evidence/chocolate.png",
+		"evidence_text": ["Hmmmm. There’s a receipt here for a store called “Farmer John’s”.", 
+						  "There’s no information on what was bought on the receipt except for these weird numbers. How strange…", 
+						  "Maybe I can give some friends a call to see what this store is about.", 
+						  "According to my source, Farmer John’s is an underground chocolate selling business!", 
+						  "And the numbers on the receipt is the secret code for cocoa beans used for growing. Apparently, there’s a lot of secret cocoa growers in NBC.", 
+						  "Whoever is the owner of the receipt is growing their own cocoa to make chocolate!"],
+		"evidence-x": 100,
+		"evidence-y": 100,
+		"dialogue": [
+			{
+				"speaker": "you",
+				"prompt": ["Excuse me, are you Princess the Corgi?"]
+			},
+			{
+				"speaker": "princess",
+				"prompt": ["Who’s askin’?"]
+			},
+			{
+				"speaker": "you",
+				"prompt": ["I’m {PLAYER_NAME}, Brutus Furdinand’s lawyer for his upcoming retrial."]
+			},
+			{
+				"speaker": "princess",
+				"prompt": ["You’re representing that filthy mutt?! I have nothing to say to somedog like you!"]
+			},
+			{
+				"speaker": "you",
+				"prompt": ["What do you have against Brutus? Did he ever do something to you?"]
+			},
+			{
+				"speaker": "princess",
+				"prompt": ["OH he did something alright! He TERRORIZED me while he worked here. What a joke to hire a breed like him in this establishment! Honestly, I don’t know what Solomon was thinking!",
+					"With his hulking frame and his cold demeanor, I couldn’t help but feel like he was going to rip out my throat at any moment! I could never let my guard down around him! Thank Dog he’s been locked up. Serves his kind right!"]
+			},
+			{
+				"speaker": "you",
+				"prompt": ["Well, goodbye now."]
 			}
 		]
 	}
