@@ -44,10 +44,12 @@
 							"responses": ["That won’t be necessary Hunter. Unless you want to explain to the police what happened in the Hamptons last summer?"]
 						}
 					],
-					{
-						"speaker": "you",
-						"responses": ["You know, the one you framed that gardener for?"]
-					}
+					[
+						{
+							"speaker": "you",
+							"responses": ["You know, the one you framed that gardener for?"]
+						}
+					]
 				]
 			},
 			{
@@ -87,10 +89,12 @@
 							"responses": ["He lives near Bone Plaza in the Chateau Apartments. Real ritzy place. I guess treat dealing really paid off."]
 						}
 					],
-					{
-						"speaker": "hunter",
-						"responses": ["It was mainly brownies, but there were also scones and cookies for sale."]
-					},
+					[
+						{
+							"speaker": "hunter",
+							"responses": ["It was mainly brownies, but there were also scones and cookies for sale."]
+						}
+					],
 					[
 						{
 							"speaker": "hunter",
@@ -99,7 +103,7 @@
 						{
 							"speaker": "hunter",
 							"responses": ["I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
-						},
+						}
 					]
 				]
 			},
