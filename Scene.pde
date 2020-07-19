@@ -1,8 +1,8 @@
 class Scene {
   PImage backgroundImage;
   
-  SceneElement character;
-  SceneElement evidence;
+  CharacterElement character;
+  ClickableElement evidence;
   Text text;
   TextBox box;
   
@@ -11,8 +11,8 @@ class Scene {
   
   Scene(JSONObject json) {
     backgroundImage = loadImage(json.getString("background"));
-    evidence = new SceneElement(json.getString("evidence"), json.getInt("evidence-x"), json.getInt("evidence-y"));
-    character = new SceneElement(json.getString("character"), width - width / 3, 200);
+    evidence = new ClickableElement(json.getString("evidence"), json.getInt("evidence-x"), json.getInt("evidence-y"), true);
+    character = new CharacterElement(json.getString("character"), width - width / 3, 200);
     character.resize(600, 600);
     text = new Text("Brutus looks like your typical pitbull on the outside; he’s got a real ruff exterior. But on the inside, he’s a total softie; he would never hurt a fly. ");
     box = new TextBox();

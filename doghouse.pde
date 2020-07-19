@@ -3,7 +3,6 @@ Scene scene_2;
 Scene scene_3;
 TextBox box_1;
 Text text_1;
-SceneElement object_1;
 
 void setup() {
   JSONArray json = loadJSONArray("events.json");
@@ -12,19 +11,19 @@ void setup() {
     jsonArr[i] = json.getJSONObject(i);
   }
   scene_1 = new Scene(jsonArr[0]);
-  //scene_2 = new Scene(jsonArr[1]);
-  //scene_3 = new Scene(jsonArr[2]);
+  scene_2 = new Scene(jsonArr[1]);
+  scene_3 = new Scene(jsonArr[2]);
   frameRate(20);  
 }
 
 void settings() {
-  //fullScreen();
-  size(1920, 1080);
+  fullScreen();
+  //size(1920, 1080);
   
 }
 
 void draw() {
   background(0);
-  scene_1.update();
-  scene_1.display();  
+  scene_3.update();
+  scene_3.display();  
 }
