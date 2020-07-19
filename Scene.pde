@@ -1,11 +1,12 @@
 class Scene {
-  PImage background_img;
+  PImage backgroundImage;
+  PImage characterImage;
   
   Scene(String filename) {
-     background_img = loadImage(filename);
+     backgroundImage = loadImage(filename);
   }
   
   void display() {
-    image(background_img, 0, 0);
+    image(backgroundImage, 0, 0);
   }
 }

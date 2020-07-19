@@ -1,10 +1,10 @@
 class Text {
-  String scroll_text;
+  String scrollText;
   PFont font;
   int counter;
   
   Text(String text) {
-    scroll_text = text;  
+    scrollText = text;  
   }
    
   void display() {
@@ -15,8 +15,15 @@ class Text {
   }
    
   void typewriteText(){
-    if (counter < scroll_text.length())
+    if (counter < scrollText.length()) {
       counter++;
-    text(scroll_text.substring(0, counter), 120, 820, width - 200, height);
+      if (mousePressed) {
+        counter = scrollText.length();
+      }
+    }
+    text(scrollText.substring(0, counter), 120, 820, width - 200, height);
   }
+  
+  
+  
 }
