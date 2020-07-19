@@ -97,7 +97,7 @@
 	{
 		"sceneName": "drugHouse",
 		"background": "assets/backgrounds/living_room.png",
-		"character": "gordon.png",
+		"character": "assets/npcs/gordon.png",
 		"intro": "I wonder what information I can find out from the drug dealer…",
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "path/to/file",
@@ -106,12 +106,20 @@
 		"evidence-y": 100,
 		"dialogue": [
 			{
-				"speaker": "nameOne",
-				"prompt": ["First text", "Second text"]
+				"speaker": "steve",
+				"prompt": ["Wow. You really do deliver pizza faster than lighting!", "Waaaait. You’re not from Bolt’s Pizza..."]
 			},
 			{
-				"speaker": "nameTwo",
-				"prompt": ["Only text"]
+				"speaker": "you",
+				"prompt": ["No. I’m not. The name’s {PLAYER_NAME}. I’m a lawyer for the Brutus Furdinand case. "]
+			},
+			{
+				"speaker": "steve",
+				"prompt": ["Aw bones man. I don’t know what you’re talking about, but hey! Lawyer, huh! That’s pretty cool of you! Making the big bucks huh?"]
+			},
+			{
+				"speaker": "you",
+				"prompt": ["Look Slimy Steve. If you don’t bark, I’ll make sure the cops know about all your shady underground dealings regarding all the chocolate doggy treats you’ve been fencing off."]
 			},
 			{
 				"speaker": "nameOne",
@@ -138,9 +146,9 @@
 	},
 	{
 		"sceneName": "bakery",
-		"background": "image.png",
-		"character": "character.png",
-		"intro": "There’s Gordon. Let’s see what he has to say about the baked goods.",
+		"background": "assets/backgrounds/bakery.png",
+		"character": ["doghouse/assets/npcs/karen.png"],
+		"intro": "There’s Solomon the bakery owner. Let’s see what he has to say about the situation.",
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "path/to/file",
 		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", "The packaging says Toe Beans Bakery on it.", "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
