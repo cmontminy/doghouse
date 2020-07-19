@@ -7,8 +7,8 @@
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "assets/evidence/chocolate.png",
 		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
-							"The packaging says Toe Beans Bakery on it.", 
-							"They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
+						  "The packaging says Toe Beans Bakery on it.", 
+						  "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
 		"evidence-x": 100,
 		"evidence-y": 100,
 		"dialogue": [
@@ -28,13 +28,13 @@
 				"speaker": "gordon",
 				"prompt" : "Look man. I don’t have anything to say to you. You’re guy was the one who’s making the treats.",
 				"answers" : ["I wanna know who you bought your chocolate baked goods from.", 
-							"Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
+							 "Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
 				"responses": [
 					[
 						{
 							"speaker": "gordon",
 							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops.", 
-										"Or maybe… me and my boys will have to teach you a lesson!"]
+										  "Or maybe… me and my boys will have to teach you a lesson!"]
 						},
 						{
 							"speaker": "you",
@@ -58,7 +58,9 @@
 			{
 				"speaker": "gordon",
 				"prompt" : "OK! I’ll tell you everything I know! But to be honest, it isn’t much.",
-				"answers" : ["Who did you get the goods from, Gordon?", "What was on the menu?", "What was the quality like?"], 
+				"answers" : ["Who did you get the goods from, Gordon?", 
+							 "What was on the menu?", 
+							 "What was the quality like?"], 
 				"responses": [
 					[
 						{
@@ -89,7 +91,7 @@
 					{
 						"speaker": "gordon",
 						"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine.", 
-										"I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
+									  "I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
 					}
 				]
 			},
@@ -103,7 +105,7 @@
 	{
 		"sceneName": "drugHouse",
 		"background": "assets/backgrounds/living_room.png",
-		"character": "assets/npcs/gordon.png",
+		"character": "assets/npcs/prosecutor.png",
 		"intro": "I wonder what information I can find out from the drug dealer…",
 		"outro": "Let’s look around the bakery to see what we can find…",
 		"evidence": "assets/evidence/chocolate.png",
@@ -228,15 +230,15 @@
 						"speaker": "solomon",
 						"prompt": ["Well, we work Monday thru Saturday with God’s Day off from 9 AM - 7 PM.",
 							"WE’RE USUALLY PACKED FROM 4 - 6 PM.",
-							"For in-store orders, we take product from the display case; once it starts to look a little empty, Karen will go to the back to restock the display case.",
-							"We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s KAREN",
-							"To-go orders come in from the machine at the front. They’re then grabbed by Karen who takes them to the back to be packaged."
+							"For in-store orders, we take product from the display case; once it starts to look a little empty, Princess will go to the back to restock the display case.",
+							"We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s Princess",
+							"To-go orders come in from the machine at the front. They’re then grabbed by Princess who takes them to the back to be packaged."
 						]
 					},
 					{
 						"speaker": "solomon",
 						"prompt": ["Oh I’m just absolutely shocked about the whole affair! I would never judge a dog by his coat, so to see Brutus be put in the dog house for illegal treat activity was so disappointing!",
-							"I thought he was different from all those other scoundrel Pitbulls. I suppose it’s in his nature to be that way…"
+								   "I thought he was different from all those other scoundrel Pitbulls. I suppose it’s in his nature to be that way…"
 						]
 					}					
 				]
@@ -290,7 +292,7 @@
 			{
 				"speaker": "princess",
 				"prompt": ["OH he did something alright! He TERRORIZED me while he worked here. What a joke to hire a breed like him in this establishment! Honestly, I don’t know what Solomon was thinking!",
-					"With his hulking frame and his cold demeanor, I couldn’t help but feel like he was going to rip out my throat at any moment! I could never let my guard down around him! Thank Dog he’s been locked up. Serves his kind right!"]
+						   "With his hulking frame and his cold demeanor, I couldn’t help but feel like he was going to rip out my throat at any moment! I could never let my guard down around him! Thank Dog he’s been locked up. Serves his kind right!"]
 			},
 			{
 				"speaker": "you",
