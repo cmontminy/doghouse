@@ -5,7 +5,7 @@
 		"character": "assets/npcs/gordon.png",
 		"intro": "There’s Gordon. Let’s see what he has to say about the baked goods.",
 		"outro": "I guess it’s time to talk to this treat dealer...",
-		"evidence": "assets/evidence/chocolate.png",
+		"evidence": "assets/evidence/treats.png",
 		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
 						  "The packaging says Toe Beans Bakery on it.", 
 						  "They don’t seem very well made. Clearly, the person making these isn’t very skilled at baking."],
