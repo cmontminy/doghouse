@@ -191,7 +191,7 @@
 	{
 		"sceneName": "bakery",
 		"background": "assets/backgrounds/bakery.png",
-		"character": "doghouse/assets/npcs/solomon.png",
+		"character": "doghouse/assets/npcs/prosecutor.png",
 		"intro": "There’s Solomon the bakery owner. Let’s see what he has to say about the situation.",
 		"outro": "Hmmm ... there seems to be someone else here.",
 		"evidence": "assets/evidence/chocolate.png",
@@ -229,10 +229,12 @@
 					{
 						"speaker": "solomon",
 						"prompt": ["Well, we work Monday thru Saturday with God’s Day off from 9 AM - 7 PM.",
-							"WE’RE USUALLY PACKED FROM 4 - 6 PM.",
+							"We're usually packed form 4 - 6 PM",
 							"For in-store orders, we take product from the display case; once it starts to look a little empty, Princess will go to the back to restock the display case.",
 							"We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s Princess",
-							"To-go orders come in from the machine at the front. They’re then grabbed by Princess who takes them to the back to be packaged."
+							"To-go orders come in from the machine at the front. They’re then grabbed by Princess who takes them to the back to be packaged.",
+							"Bless her little heart, but Princess isn’t the best at packaging the treats. It’s a good think she’s good at being a cashier, otherwise I would have no use for her; she can’t package treats, and she definitely doesn’t know how to bake.",
+							"I had actually originally hired her to be a baker, but she almost burned the shop down!"
 						]
 					},
 					{
