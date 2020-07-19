@@ -30,6 +30,10 @@ class Clickable {
     image(objectDisplayed, x, y);
   }
   
+  boolean clicked() {
+    return isOver() && mousePressed;
+  }
+  
   boolean isOver() {
     return (mouseX >= this.x && mouseX <= this.x + this.size) &&
            (mouseY >= this.y && mouseY <= this.y + this.size);

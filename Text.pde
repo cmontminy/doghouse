@@ -17,11 +17,11 @@ class Text {
   void typewriteText(){
     if (counter < scrollText.length()) {
       counter++;
-      if (mousePressed) {
+      if (key == ' ') {
         counter = scrollText.length();
       }
     }
-    text(scrollText.substring(0, counter), 120, 820, width - 200, height);
+    text(scrollText.substring(0, counter), 120, 820, width - 269, height);
   }
   
   

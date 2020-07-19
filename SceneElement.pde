@@ -4,4 +4,9 @@ class SceneElement extends Clickable {
     super(fileName, x, y);
   }
   
+  void resize(int x, int y) {
+    objectBase.resize(x, y);
+    objectHighlight.resize(x, y);
+  }
+  
 }
