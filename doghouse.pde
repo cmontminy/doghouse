@@ -3,6 +3,7 @@ Scene scene_2;
 Scene scene_3;
 TextBox box_1;
 Text text_1;
+Hub packet;
 
 void setup() {
   JSONArray json = loadJSONArray("events.json");
@@ -13,6 +14,7 @@ void setup() {
   scene_1 = new Scene(jsonArr[0]);
   scene_2 = new Scene(jsonArr[1]);
   scene_3 = new Scene(jsonArr[2]);
+  packet = new Hub();
   frameRate(20);  
 }
 
@@ -24,6 +26,8 @@ void settings() {
 
 void draw() {
   background(0);
-  scene_3.update();
-  scene_3.display();  
+  //scene_3.update();
+  //scene_3.display();  
+  packet.update();
+  packet.display();
 }

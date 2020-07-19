@@ -7,10 +7,10 @@ class ClickableElement {
   
   public int x;
   public int y;
-  private int size;
+  private int sizeX;
+  private int sizeY;
   
   ClickableElement(String fileName, int x, int y, boolean high) {
-    println(fileName);
     String fileNameHigh = fileName;
     if (high) {
       fileNameHigh = fileName.substring(0, fileName.indexOf('.')) + "-high.png";
@@ -19,7 +19,8 @@ class ClickableElement {
     objectBase = loadImage(fileName);
     objectDisplayed = objectBase;
 
-    this.size = objectDisplayed.width;
+    this.sizeX = objectDisplayed.width;
+    this.sizeY = objectDisplayed.height;
     this.x = x;
     this.y = y;
   }
@@ -38,8 +39,8 @@ class ClickableElement {
   }
   
   boolean isOver() {
-    return (mouseX >= this.x && mouseX <= this.x + this.size) &&
-           (mouseY >= this.y && mouseY <= this.y + this.size);
+    return (mouseX >= this.x && mouseX <= this.x + this.sizeX) &&
+           (mouseY >= this.y && mouseY <= this.y + this.sizeY);
   }
   
 }
