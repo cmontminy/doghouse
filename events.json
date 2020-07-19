@@ -2,8 +2,8 @@
 	{
 		"sceneName": "fratHouse",
 		"background": "assets/backgrounds/frat_house.png",
-		"character": "assets/npcs/gordon.png",
-		"intro": "There’s Gordon. Let’s see what he has to say about the baked goods.",
+		"character": "assets/npcs/hunter.png",
+		"intro": "There’s hunter. Let’s see what he has to say about the baked goods.",
 		"outro": "I guess it’s time to talk to this treat dealer...",
 		"evidence": "assets/evidence/treats.png",
 		"evidence_text": ["Hmmm… these must be the chocolate treats in question…", 
@@ -14,10 +14,10 @@
 		"dialogue": [
 			{
 				"speaker": "you",
-				"prompt": ["Hey! Are you Gordon?"]
+				"prompt": ["Hey! Are you Hunter?"]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt": ["Who’s asking?"]
 			},
 			{
@@ -25,46 +25,51 @@
 				"prompt": ["My name is {PLAYER_NAME}. I’m Brutus Furdinand’s lawyer."]
 			},
 			{
-				"speaker": "gordon",
-				"prompt" : "Look man. I don’t have anything to say to you. You’re guy was the one who’s making the treats.",
+				"speaker": "hunter",
+				"prompt" : ["Look man. I don’t have anything to say to you. You’re guy was the one who’s making the treats."],
 				"answers" : ["I wanna know who you bought your chocolate baked goods from.", 
 							 "Look. I don’t have time for this. If you don’t tell me what I want to know, I’ll go tell the police about your little hole digging scandal in the Hamptons last year."], 
 				"responses": [
 					[
 						{
-							"speaker": "gordon",
-							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops.", 
-										  "Or maybe… me and my boys will have to teach you a lesson!"]
+							"speaker": "hunter",
+							"responses": ["I don’t have to tell you anything! If you don’t leave, I’ll call the cops."]
+						},
+						{
+							"speaker": "hunter",
+							"responses": ["Or maybe… me and my boys will have to teach you a lesson!"]
 						},
 						{
 							"speaker": "you",
-							"responses": ["That won’t be necessary Gordon. Unless you want to explain to the police what happened in the Hamptons last summer?"]
+							"responses": ["That won’t be necessary Hunter. Unless you want to explain to the police what happened in the Hamptons last summer?"]
 						}
 					],
-					{
-						"speaker": "you",
-						"responses": ["You know, the one you framed that gardener for?"]
-					}
+					[
+						{
+							"speaker": "you",
+							"responses": ["You know, the one you framed that gardener for?"]
+						}
+					]
 				]
 			},
 			{
-				"speaker": "gordon",
+				"speaker": "hunter",
 				"prompt": ["How do you know about that?"]
 			},
 			{
 				"speaker": "you",
-				"prompt": ["I know a lot about you Gordon. And if you don’t give me the information I need, the police will know all that I know."]
+				"prompt": ["I know a lot about you Hunter. And if you don’t give me the information I need, the police will know all that I know."]
 			},
 			{
-				"speaker": "gordon",
-				"prompt" : "OK! I’ll tell you everything I know! But to be honest, it isn’t much.",
-				"answers" : ["Who did you get the goods from, Gordon?", 
+				"speaker": "hunter",
+				"prompt" : ["OK! I’ll tell you everything I know! But to be honest, it isn’t much."],
+				"answers" : ["Who did you get the goods from, Hunter?", 
 							 "What was on the menu?", 
 							 "What was the quality like?"], 
 				"responses": [
 					[
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["It was a dog named Slimy Steve. He used to go to UNB but dropped out when the drug business got too good."]
 						},
 						{
@@ -72,7 +77,7 @@
 							"responses": ["Where does Slimy Steve hang around?"]
 						},
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["I don’t know man… The dog is like a ghost. Last I heard he moved apartments."]
 						},
 						{
@@ -80,25 +85,31 @@
 							"responses": ["And where would that be?"]
 						},
 						{
-							"speaker": "gordon",
+							"speaker": "hunter",
 							"responses": ["He lives near Bone Plaza in the Chateau Apartments. Real ritzy place. I guess treat dealing really paid off."]
 						}
 					],
-					{
-						"speaker": "gordon",
-						"responses": ["It was mainly brownies, but there were also scones and cookies for sale."]
-					},
-					{
-						"speaker": "gordon",
-						"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine.", 
-									  "I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
-					}
+					[
+						{
+							"speaker": "hunter",
+							"responses": ["It was mainly brownies, but there were also scones and cookies for sale."]
+						}
+					],
+					[
+						{
+							"speaker": "hunter",
+							"responses": ["To be honest? Trash. I’ve gotten better chocolate treats for a much better price from some gu- I mean.... They got the job done, so I guess it’s fine."]
+						},
+						{
+							"speaker": "hunter",
+							"responses": ["I’ve got money to spare, so it’s whatever, but all these poor chumps are out here paying premium dollar for dog poop."]
+						}
+					]
 				]
 			},
 			{
 				"speaker": "you",
-				"prompt": ["Thanks for your time Gordon. I hope you’ll clean up your act soon.", 
-						   "I guess it’s time to talk to this treat dealer..."]
+				"prompt": ["Thanks for your time Hunter. I hope you’ll clean up your act soon."]
 			}
 		]
 	},
@@ -110,8 +121,8 @@
 		"outro": "Let’s look around the bakery to see what we can find…",
 		"evidence": "assets/objects/none.png",
 		"evidence_text": ["gg brother"],
-		"evidence-x": 100,
-		"evidence-y": 100,
+		"evidence-x": 0,
+		"evidence-y": 0,
 		"dialogue": [
 			{
 				"speaker": "steve",
@@ -131,15 +142,21 @@
 			},
 			{
 				"speaker": "you",
-				"prompt" : "Iell me everything you know about Toe Beans Bakery",
+				"prompt" : ["Iell me everything you know about Toe Beans Bakery"],
 				"answers" : ["Who’s making all their product?", "How are they distributing?"], 
 				"responses": [
 					[
 						{
 							"speaker": "steve",
-							"responses": ["I don’t know that. All the interactions were anonymous, and whenever I would pick up the order, there was always a different person working.", 
-										  "I thought it might be the entire staff, but the operation seemed very small.", 
-										  "The product is good enough, but if that many people were on board, the quality should be much better."]
+							"responses": ["I don’t know that. All the interactions were anonymous, and whenever I would pick up the order, there was always a different person working."]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["I thought it might be the entire staff, but the operation seemed very small."]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["The product is good enough, but if that many people were on board, the quality should be much better."]
 						},
 						{
 							"speaker": "you",
@@ -147,15 +164,21 @@
 						},
 						{
 							"speaker": "steve",
-							"responses": ["I’ve seen my fair share of chocolate treat makers in my time as a treat dealer, and in my experience, whoever is making the Toe Beans treats, 1 isn’t very good at baking, and 2 is doing it by themselves.", 
-										  "Whenever I order from them, the treats don’t look the best, and the packaging looks sloppy and rushed. Whoever is handling that operation is DEFINITELY doing it solo."]
+							"responses": ["I’ve seen my fair share of chocolate treat makers in my time as a treat dealer, and in my experience, whoever is making the Toe Beans treats, 1 isn’t very good at baking, and 2 is doing it by themselves."]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["Whenever I order from them, the treats don’t look the best, and the packaging looks sloppy and rushed. Whoever is handling that operation is DEFINITELY doing it solo."]
 						}
 					],
 					[
 						{
 							"speaker": "steve",
-							"responses": ["Toe Beans has an online ordering app. All you have to do is place the order online and pick it up later.", 
-										  "We dealers would have to order using a secret code of pastries."]
+							"responses": ["Toe Beans has an online ordering app. All you have to do is place the order online and pick it up later."]
+						},
+						{
+							"speaker": "steve",
+							"responses": ["We dealers would have to order using a secret code of pastries."]
 						},
 						{
 							"speaker": "you",
@@ -221,29 +244,56 @@
 							"How do you usually operate?",
 							"What kind of dog was Brutus?"],
 				"responses": [
-					{
-						"speaker": "solomon",
-						"prompt": ["Oh, I usually just open and close the doors. I laze around in the office at the back, but other than that I let the staff run the shop.",
-							"There’s a little cafe down the street with a barking cute barista, so I like to take long lunches there."
-						]
-					},
-					{
-						"speaker": "solomon",
-						"prompt": ["Well, we work Monday thru Saturday with God’s Day off from 9 AM - 7 PM.",
-							"We're usually packed form 4 - 6 PM",
-							"For in-store orders, we take product from the display case; once it starts to look a little empty, Princess will go to the back to restock the display case.",
-							"We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s Princess",
-							"To-go orders come in from the machine at the front. They’re then grabbed by Princess who takes them to the back to be packaged.",
-							"Bless her little heart, but Princess isn’t the best at packaging the treats. It’s a good think she’s good at being a cashier, otherwise I would have no use for her; she can’t package treats, and she definitely doesn’t know how to bake.",
-							"I had actually originally hired her to be a baker, but she almost burned the shop down!"
-						]
-					},
-					{
-						"speaker": "solomon",
-						"prompt": ["Oh I’m just absolutely shocked about the whole affair! I would never judge a dog by his coat, so to see Brutus be put in the dog house for illegal treat activity was so disappointing!",
-								   "I thought he was different from all those other scoundrel Pitbulls. I suppose it’s in his nature to be that way…"
-						]
-					}					
+					[
+						{
+							"speaker": "solomon",
+							"prompt": ["Oh, I usually just open and close the doors. I laze around in the office at the back, but other than that I let the staff run the shop."]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["There’s a little cafe down the street with a barking cute barista, so I like to take long lunches there."]
+						}
+					],
+					[
+						{
+							"speaker": "solomon",
+							"prompt": ["Well, we work Monday thru Saturday with God’s Day off from 9 AM - 7 PM."]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["We're usually packed form 4 - 6 PM"]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["For in-store orders, we take product from the display case; once it starts to look a little empty, Princess will go to the back to restock the display case."]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["We offer online to-go orders all day. Usually, all to-go orders are packaged by the baker themselves, but during rush hour, the baker will pack all the to-go orders with the help of an extra employee. Usually that’s Princess"]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["To-go orders come in from the machine at the front. They’re then grabbed by Princess who takes them to the back to be packaged."]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["Bless her little heart, but Princess isn’t the best at packaging the treats. It’s a good think she’s good at being a cashier, otherwise I would have no use for her; she can’t package treats, and she definitely doesn’t know how to bake."]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["I had actually originally hired her to be a baker, but she almost burned the shop down!"]
+						}
+					],
+					[
+						{
+							"speaker": "solomon",
+							"prompt": ["Oh I’m just absolutely shocked about the whole affair! I would never judge a dog by his coat, so to see Brutus be put in the dog house for illegal treat activity was so disappointing!"]
+						},
+						{
+							"speaker": "solomon",
+							"prompt": ["I thought he was different from all those other scoundrel Pitbulls. I suppose it’s in his nature to be that way…"]
+						}	
+					]				
 				]
 			},
 			{
@@ -264,8 +314,8 @@
 		"outro": "That was interesting.",
 		"evidence": "assets/objects/none.png",
 		"evidence_text": ["gg brother"],
-		"evidence-x": 100,
-		"evidence-y": 100,
+		"evidence-x": 0,
+		"evidence-y": 0,
 		"dialogue": [
 			{
 				"speaker": "you",
@@ -289,8 +339,11 @@
 			},
 			{
 				"speaker": "princess",
-				"prompt": ["OH he did something alright! He TERRORIZED me while he worked here. What a joke to hire a breed like him in this establishment! Honestly, I don’t know what Solomon was thinking!",
-						   "With his hulking frame and his cold demeanor, I couldn’t help but feel like he was going to rip out my throat at any moment! I could never let my guard down around him! Thank Dog he’s been locked up. Serves his kind right!"]
+				"prompt": ["OH he did something alright! He TERRORIZED me while he worked here. What a joke to hire a breed like him in this establishment! Honestly, I don’t know what Solomon was thinking!"]
+			},
+			{
+				"speaker": "princess",
+				"prompt": ["With his hulking frame and his cold demeanor, I couldn’t help but feel like he was going to rip out my throat at any moment! I could never let my guard down around him! Thank Dog he’s been locked up. Serves his kind right!"]
 			},
 			{
 				"speaker": "you",

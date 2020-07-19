@@ -14,7 +14,7 @@ class Scene {
     evidence = new ClickableElement(json.getString("evidence"), json.getInt("evidence-x"), json.getInt("evidence-y"), true);
     character = new CharacterElement(json.getString("character"), width - width / 3, 200);
     character.resize(600, 600);
-    text = new Text("Brutus looks like your typical pitbull on the outside; he’s got a real ruff exterior. But on the inside, he’s a total softie; he would never hurt a fly. ");
+    text = new Text(json.getJSONArray("dialogue"));
     box = new TextBox();
   }
   
