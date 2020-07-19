@@ -108,7 +108,7 @@
 		"character": "assets/npcs/prosecutor.png",
 		"intro": "I wonder what information I can find out from the drug dealer…",
 		"outro": "Let’s look around the bakery to see what we can find…",
-		"evidence": "assets/objects/none",
+		"evidence": "assets/objects/none.png",
 		"evidence_text": ["gg brother"],
 		"evidence-x": 100,
 		"evidence-y": 100,
