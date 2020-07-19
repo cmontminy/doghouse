@@ -9,10 +9,10 @@ class Scene {
   boolean dialogueClicked;
   boolean evidenceClicked;
   
-  Scene(String filename) {
-    backgroundImage = loadImage(filename);
-    evidence = new SceneElement("assets/objects/chocolate.png", 500, 500);
-    character = new SceneElement("assets/npcs/Prosecutor.png", width - width / 3, 200);
+  Scene(JSONObject json) {
+    backgroundImage = loadImage(json.getString("background"));
+    evidence = new SceneElement(json.getString("evidence"), json.getInt("evidence-x"), json.getInt("evidence-y"));
+    character = new SceneElement(json.getString("character"), width - width / 3, 200);
     character.resize(600, 600);
     text = new Text("Brutus looks like your typical pitbull on the outside; he’s got a real ruff exterior. But on the inside, he’s a total softie; he would never hurt a fly. ");
     box = new TextBox();
